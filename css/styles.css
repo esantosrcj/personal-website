@@ -1,0 +1,95 @@
+html, body {
+    height: 100%;
+}
+
+body {
+    position: relative;
+}
+
+.navbar {
+    background-color: rgb(75, 75, 75);
+}
+
+.bg-image {
+    height: 75%;
+
+    background-image: url('../img/palace-pose.jpg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.section-content {
+    padding: 5rem 0;
+}
+
+.card {
+    margin: 1rem 0;
+}
+
+.card-subtitle {
+    margin-bottom: 2rem;
+}
+
+.img-name {
+    text-shadow: 1px 1px black;
+}
+
+.icon-bg {
+    display: block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgb(221, 221, 221);
+    background-size: 30px;
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    margin: 0 0.25rem;
+}
+
+#thumbs-up {
+    width: 100%;
+    margin-bottom: 2rem;
+}
+
+#experience {
+    background-color: rgb(242, 250, 255);
+}
+
+#footer {
+    padding: 1rem;
+}
+
+#linkedin-icon {
+    background-image: url("../img/LI-In-Bug.png");
+}
+
+#github-icon {
+    background-image: url("../img/GitHub-Mark-120px-plus.png");
+}
+
+#top-btn {
+    display: none;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    z-index: 99;
+    background-image: url("../img/arrow-upward.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(100, 100, 100, 0.5);
+    outline: none;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    width: 75px;
+    height: 75px;
+}
+
+#top-btn:hover {
+    background-color: rgba(100, 100, 100, 0.75);
+}
