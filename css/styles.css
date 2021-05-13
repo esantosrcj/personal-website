@@ -93,3 +93,9 @@ body {
 #top-btn:hover {
     background-color: rgba(100, 100, 100, 0.75);
 }
+
+@media screen and (max-device-width: 1024px){
+    .bg-image {
+        background-attachment: scroll;
+    }
+}
