@@ -11,9 +11,9 @@ body {
 }
 
 .bg-image {
-    height: 75%;
+    height: 80%;
 
-    background-image: url('../img/palace-pose.jpg');
+    background-image: url('../img/haleakala-hi-lg.jpeg');
     background-repeat: no-repeat;
     background-position: center center;
     background-size: cover;
