@@ -160,7 +160,7 @@
                         </div>
                     </div>
                     <div class="col-sm-4">
-                        <p class="text-center" style="color: white;">&copy; Eddie Santos 2021</p>
+                        <p class="text-center" style="color: white;">&copy; Eddie Santos <span id="site-date"></span></p>
                     </div>
                     <div class="col-sm-4">
                         <div>
@@ -170,6 +170,11 @@
                 </div>
             </div>
         </footer>
+
+        <script>
+            const year = new Date().getFullYear();
+            document.getElementById("site-date").innerHTML = year;
+        </script>
 
         <!-- Bootstrap Bundle with Popper -->
         <script src="js/bootstrap.bundle.min.js"></script>
